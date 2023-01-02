@@ -1,0 +1,225 @@
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+#content-wrap {
+    padding-top: 10%;
+    padding-bottom: 50%;   /* Footer height */
+  }
+  
+#footer {
+    z-index: 10;
+    background-color:#011627;
+    color:#FDFFFC;
+    padding: 10%;
+    width: 100%;
+    font-style: bold;
+    font-size: 2vw;
+    font-family: 'Quicksand';
+    position: absolute;
+    bottom: 0;
+
+}
+
+#font_logo{
+    margin-left: 5%;
+    z-index: 9;
+    position: fixed;
+    padding-bottom: 100%;
+    padding-right: 0.8vw;
+    padding-left: 2vw;
+    background-color: #FDFFFC;
+    text-transform: lowercase;
+    display: inline-block;
+    color: #011627;
+    font-style: bold;
+    font-size: 7vw;
+    font-family: 'Quicksand';
+}
+
+.nav-Bar{
+    /* animation: 1s ease-out 0s 1 slideFromTop; */
+    filter: drop-shadow(0 0 0.75rem black); 
+    z-index: 8;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    width:100vw;
+    font-family: 'Quicksand';
+    /* margin-left: 320px; */
+    display:block;
+    position: fixed;
+    background-color: #011627;
+    text-align: center;
+}
+
+.nav-item{
+    border-style: none;
+    border-bottom: none;
+    background-color: #011627;
+    color: #FDFFFC;
+    font-size: 4vw;
+    margin-left: 4vw;
+}
+
+
+.nav-item:hover{
+    color: grey;
+}
+
+
+
+#other_font_logo{
+    z-index: 9;
+    margin-left: 2vw;
+    width: 20vw;
+    padding-bottom: 100%;
+    height: 100%;
+    position: relative;
+    padding-top: 1vh;
+    background-color: #FDFFFC;
+    color: #011627;
+    font-style: bold;
+}
+
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+.fa-facebook:hover {
+    background: white;
+    color: #3B5998;
+  }
+  
+  /* Twitter */
+
+  .fa-linkedin{
+    background-color: #0072b1;
+    color: white;
+  }
+
+  .fa-linkedin:hover{
+    background-color: white;
+    color: #0072b1;
+  }
+
+  .fa-instagram{
+    background-color: #E4405F;
+    color: white;
+  }
+
+  .fa-instagram:hover{
+    background-color: white;
+    color: #E4405F;
+  }
+
+  .bottom_title{
+
+    z-index: 10;
+    cursor: none;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    color:#FDFFFC;
+    background-color:#011627;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #FDFFFC;
+    border-width: 2px;
+    margin-right: 30vw;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#intro_box_1{
+    background-color: #011627;
+    color: #FDFFFC;
+    font-style: bold;
+    font-size: 3vh;
+    font-weight: 100%;
+    font-family: 'Quicksand';
+    width: fit-content;
+    padding: 20vh;
+    margin-left: 30vw;
+}
+
+#display_box_1{
+    /* margin-top: -100px; */
+    background-color: #F71735;
+    width: 70%;
+    height: 400px;
+    padding-left: 400px;
+    margin-top: 10vh;
+    /* filter: drop-shadow(0 0 0.75rem crimson); */
+}
+
+
+#display_box_2{
+    /* filter: drop-shadow(0 0 0.75rem #41ead4); */
+    margin-top: 10vh;
+    margin-left: 30%;
+    padding: 200px;
+    background-color: #41ead4;
+    width: 70%;
+    height: 400px;
+    padding-left: 400px;
+
+}
+
+.hidden{
+    opacity: 0;
+    transition: all 1s;
+    transform: translateX(-100%);
+    filter: blur(5px);
+}
+
+@media(prefers-reduced-motion){
+.hidden{
+    transition: none;
+}
+}
+
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+#works_box{
+    animation: 1s ease-out 0s 1 slideFromTop;
+    text-align: center;
+    font-style: bold;
+    font-size: 7vw;
+    font-weight: 100%;
+    font-family: 'Quicksand';
+    text-transform: lowercase;
+    color: #FDFFFC;
+    background-color: #011627;
+    padding: 50px;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-bottom: 10px;
+    /* filter: drop-shadow(0 0 0.75rem crimson); */
+}
+
+
+
+#display_box_3{
+    /* filter: drop-shadow(0 0 0.75rem #ff9f1c); */
+    margin-top: 10vh;
+    background-color: #ff9f1c;
+    width: 70%;
+    height: 400px;
+    padding-left: 400px;
+}
